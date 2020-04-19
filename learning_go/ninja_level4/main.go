@@ -1,14 +1,16 @@
-// ninja level 4 exercises from Learning Go
-
 package main
 
 import (
-	"fmt"
+	"github.com/KnightlyGo/learning_go/ninja_level4/exercises"
 )
 
 func main() {
-	// exerise 1
-	var x [5]int
-	x[1] = 2
-	fmt.Println(x)
+	exercises.Exercise1()
+	// declare slice to be used in exercises
+	a := []int{42, 43, 44, 45, 46, 47, 48, 49, 50, 51}
+	exercises.Exercise2(a)
+	exercises.Exercise3(a)
+	exercises.Exercise4(a)
+	exercises.Exercise5(a)
+
 }
