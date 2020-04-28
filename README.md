@@ -2,5 +2,4 @@
 
 My Go repo, starting with Todd McLeod's Go course. Hopefully finishing never..
 
-Format: ![gophers](https://github.com/ashleymcnamara/gophers/blob/master/GOPHER_ADADEMY.png?raw=true)
-
+<img src="https://github.com/ashleymcnamara/gophers/blob/master/GOPHER_ADADEMY.png" alt="gopher_academy" width="200"/>
