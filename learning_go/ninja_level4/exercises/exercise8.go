@@ -5,7 +5,7 @@ import (
 )
 
 // Exercise8 ... exercise 8 solution
-func Exercise8() {
+func Exercise8() map[string][]string {
 	fmt.Println("\nExercise 8:")
 	// create map
 	agents := map[string][]string{
@@ -18,6 +18,6 @@ func Exercise8() {
 		for i, v := range slice {
 			fmt.Println("\tvalue: ", v, "index:", i)
 		}
-
 	}
+	return agents
 }

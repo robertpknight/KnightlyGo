@@ -17,6 +17,7 @@ func main() {
 
 	exercises.Exercise6()
 	exercises.Exercise7()
-	exercises.Exercise8()
-
+	agents := exercises.Exercise8()
+	agents_new_record := exercises.Exercise9(agents)
+	exercises.Exercise10(agents_new_record)
 }
