@@ -1,3 +1,5 @@
 # :waxing_crescent_moon: KnightlyGo
 
-This will start as a repo to learn Go and drop my toy scripts. But I have the ambition for this to include some cool Go code before too long.
+My Go repo, starting with Todd McLeod's Go course. Hopefully finishing never..
+
+https://github.com/ashleymcnamara/gophers/blob/master/GOPHER_ADADEMY.png?raw=true
