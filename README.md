@@ -1,4 +1,4 @@
-# :waxing_crescent_moon: KnightlyGo
+# :waxing_crescent_moon: Knightly Go
 
 My Go repo, starting with Todd McLeod's Go course. Hopefully finishing never..
 
