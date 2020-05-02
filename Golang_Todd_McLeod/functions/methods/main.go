@@ -27,14 +27,14 @@ func (p person) speak() {
 // a value can be of more than one type
 // any type with method speak() is of type human
 type human interface {
-	speak()
+	speak() // an empty interface can be of type anything
 }
 
 // this function takes values of type human
 // the functionality can change depending on
 // what other types the value has
 func printHuman(h human) {
-	fmt.Println("\nprinting value of type human:", h)
+	fmt.Println("\nprinting value of type human: ", h)
 	fmt.Printf("\tThis human is of type:%T", h)
 
 	// using type in switch statement to define behaviour
