@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/KnightlyGo/learning_go/ninja_level4/exercises"
+	"github.com/KnightlyGo/Golang_Todd_McLeod/ninja_level4/exercises"
 )
 
 func main() {
@@ -18,6 +18,6 @@ func main() {
 	exercises.Exercise6()
 	exercises.Exercise7()
 	agents := exercises.Exercise8()
-	agents_new_record := exercises.Exercise9(agents)
-	exercises.Exercise10(agents_new_record)
+	agentsNewRecord := exercises.Exercise9(agents)
+	exercises.Exercise10(agentsNewRecord)
 }

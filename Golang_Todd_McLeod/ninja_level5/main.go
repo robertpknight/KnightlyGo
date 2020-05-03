@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/KnightlyGo/learning_go/ninja_level5/exercises"
+	"github.com/KnightlyGo/Golang_Todd_McLeod/ninja_level5/exercises"
 )
 
 func main() {
