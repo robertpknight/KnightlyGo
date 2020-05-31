@@ -18,7 +18,7 @@ type person struct {
 	WeaponBelt struct {
 		Knives int `json:"Knives"`
 		Pistol int `json:"Pistol"`
-	} `json:"Weapons"`
+	} `json:"WeaponBelt"`
 }
 
 func main() {
