@@ -56,6 +56,14 @@ func main() {
 	body := []byte(s)
 	var agents []person
 
+	// deliberately fail to unmarshal display an error
+	badJson := []byte(`[{"First":"James" "Last":"Bond"}]`)
+
+	err = json.Unmarshal(badJson, &agents)
+	if err != nil {
+		fmt.Println("\nThis is an intentional error:", err)
+	}
+
 	err = json.Unmarshal(body, &agents)
 	if err != nil {
 		fmt.Println(err)
