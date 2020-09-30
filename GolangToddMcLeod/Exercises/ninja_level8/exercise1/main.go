@@ -42,7 +42,7 @@ func main() {
 	// unmarshall the slice of bytes to unmarshalUsers
 	var unmarshalUsers []user
 
-	err = json.Unmarshal(bs, &unmarshalUsers)
+	err = json.Unmarshal(bs, &unmarshalUsers) // unmarshall requires a point to make changes to the variable in place
 	if err != nil {
 		fmt.Println(err)
 	}
